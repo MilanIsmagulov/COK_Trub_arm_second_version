@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','Poppins', sans-serif;
+}
+
+
+.backward_button{
+    position: absolute;
+    top: 380px;
+    left: -60px;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 35px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(255, 114, 118);
+    color: white;
+    transform: rotate(-90deg);
+}

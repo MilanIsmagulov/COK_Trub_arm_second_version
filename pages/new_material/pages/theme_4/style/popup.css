@@ -1,6 +1,6 @@
 .popup_text{
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
 }
 

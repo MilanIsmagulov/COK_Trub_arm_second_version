@@ -14,7 +14,7 @@ a{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(222, 235, 247);
     height: 100vh;
     width: 100vw;
 }
@@ -47,7 +47,8 @@ body{
 }
 
 .container{
-    height: 85vh;
+    height: 80vh;
+    max-height: 800px;
     background-color: rgb(222, 235, 247);
     border-radius: 50px;
     padding: 25px;
@@ -225,4 +226,21 @@ body{
 
 .list_shema{
     display: flex;
+}
+
+.first_part img{
+    width: 30%;
+}
+
+.popup_text{
+    display: flex;
+}
+
+.list_shema{
+    font-size: 30px;
+}
+
+.popup_text img{
+    width: 48%;
+    margin-right: 100px;
 }

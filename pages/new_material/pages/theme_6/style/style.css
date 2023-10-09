@@ -14,7 +14,7 @@ a{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(222, 235, 247);
     height: 100vh;
     width: 100vw;
 }
@@ -89,7 +89,7 @@ body{
     scroll-snap-align: start;
     height: 95%;
     background-color: rgb(222, 235, 247);
-    border-radius: 50px;
+    border-radius: 0px;
     padding: 25px;
     margin: 25px;
 }
@@ -233,4 +233,16 @@ body{
 .shema_2 p{
     margin-left: 25px;
     font-size: 30px;
+}
+
+.head_for_image_1{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.head_for_image_2{
+    font-size: 30px;
+    font-weight: 600;
+    
 }
